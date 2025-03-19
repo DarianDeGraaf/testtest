@@ -1,45 +1,53 @@
 package appliance;
+import com.google.gson.annotations.SerializedName;
 
-/**
- * This class represents an appliance with properties like name, type,
- * power consumption, and embodied emissions.
-
- * immutability: Fields are private final, and no setters are provided.
- * Encapsulation: Properties are accessed via getters only.
- *
- */
 public class Appliance {
-    private final String name;
-    private final ApplianceType applianceType;
-    private final float powerConsumption;
-    private final int embodiedEmissions;
 
-    public Appliance(String name, ApplianceType type, float powerConsumption, int embodiedEmissions) {
-        this.name = name;
-        this.applianceType = type;
-        this.powerConsumption = powerConsumption;
-        this.embodiedEmissions = embodiedEmissions;
-    }
+    @SerializedName("name")
+    private String name;
+
+    @SerializedName("power_consumption_kwh")
+    private float powerConsumption;
+
+    @SerializedName("embodied_emissions_kgCO2e")
+    private int embodiedEmissions;
+
+    @SerializedName("type")
+    private ApplianceType applianceType;
+
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public ApplianceType getType() {
         return applianceType;
     }
 
+    public void setType(ApplianceType type) {
+        this.applianceType = type;
+    }
+
     public float getPowerConsumption() {
         return powerConsumption;
+    }
+
+    public void setPowerConsumption(int powerConsumption) {
+        this.powerConsumption = powerConsumption;
     }
 
     public int getEmbodiedEmissions() {
         return embodiedEmissions;
     }
 
-    @Override
-    public String toString() {
-        return String.format("Appliance{name='%s', type=%s, powerConsumption=%.2f, embodiedEmissions=%d}",
-                name, applianceType, powerConsumption, embodiedEmissions);
+    public void setEmbodiedEmissions(int embodiedEmissions) {
+        this.embodiedEmissions = embodiedEmissions;
     }
 }
+
+
+

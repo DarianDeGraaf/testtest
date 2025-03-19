@@ -1,13 +1,5 @@
-package carbon_intensity;
-
-import enum_template.EnumTemplate;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
-
-public enum Country implements EnumTemplate {
+package data_files.carbon_intensity;
+public enum Country {
     DE("Germany"),
     FR("France"),
     IT("Italy"),
@@ -19,34 +11,15 @@ public enum Country implements EnumTemplate {
     PL("Poland"),
     DK("Denmark");
 
-    private final String caption;
-    private static final Map<String, Country> LOOKUP_MAP = new HashMap<>();
+    private final String countryName;
 
-    static {
-        for (Country country : Country.values()) {
-            LOOKUP_MAP.put(country.caption, country);
-        }
+    // Constructor for the enum constants
+    Country(String countryName) {
+        this.countryName = countryName;
     }
 
-    Country(String caption) {
-        this.caption = caption;
-    }
-
-    @Override
-    public String getCaption() {
-        return this.caption;
-    }
-
-    public static Set<String> getAllEnumCaptions() {
-        return EnumTemplate.getEnumCaptions(LOOKUP_MAP);
-    }
-
-    public static Country getEnumByCaption(String caption) {
-        return EnumTemplate.getEnumByCaption(LOOKUP_MAP, caption);
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Available Country Captions: " + Country.getAllEnumCaptions());
-        Country country = Country.getEnumByCaption("Poland");
+    // Getter for the human-readable country name
+    public String getCountryName() {
+        return countryName;
     }
 }
