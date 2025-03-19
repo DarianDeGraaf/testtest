@@ -1,0 +1,584 @@
+[
+    {
+        "name": "Samsung RF23J9011SR Refrigerator",
+        "power_consumption_kwh": 0.6,
+        "embodied_emissions_kgCO2e": 180,
+        "type": "REFRIGERATOR"
+    },
+    {
+        "name": "LG InstaView Door-in-Door Refrigerator",
+        "power_consumption_kwh": 0.8,
+        "embodied_emissions_kgCO2e": 220,
+        "type": "REFRIGERATOR"
+    },
+    {
+        "name": "Whirlpool WRF535SWHZ Refrigerator",
+        "power_consumption_kwh": 0.75,
+        "embodied_emissions_kgCO2e": 210,
+        "type": "REFRIGERATOR"
+    },
+    {
+        "name": "Bosch B36IT800NP Refrigerator",
+        "power_consumption_kwh": 0.7,
+        "embodied_emissions_kgCO2e": 200,
+        "type": "REFRIGERATOR"
+    },
+    {
+        "name": "GE GNE27JYMFS Freezer",
+        "power_consumption_kwh": 0.45,
+        "embodied_emissions_kgCO2e": 120,
+        "type": "FREEZER"
+    },
+    {
+        "name": "Frigidaire FFFU16F2VW Freezer",
+        "power_consumption_kwh": 0.5,
+        "embodied_emissions_kgCO2e": 130,
+        "type": "FREEZER"
+    },
+    {
+        "name": "Maytag MZF34X18DW Freezer",
+        "power_consumption_kwh": 0.4,
+        "embodied_emissions_kgCO2e": 115,
+        "type": "FREEZER"
+    },
+    {
+        "name": "Whirlpool WZF79R20DW Freezer",
+        "power_consumption_kwh": 0.55,
+        "embodied_emissions_kgCO2e": 140,
+        "type": "FREEZER"
+    },
+    {
+        "name": "GE Profile PSS93YPFS Oven",
+        "power_consumption_kwh": 2.2,
+        "embodied_emissions_kgCO2e": 250,
+        "type": "OVEN"
+    },
+    {
+        "name": "Frigidaire FFEF3054TS Oven",
+        "power_consumption_kwh": 2,
+        "embodied_emissions_kgCO2e": 230,
+        "type": "OVEN"
+    },
+    {
+        "name": "Samsung NV51K7770DG Oven",
+        "power_consumption_kwh": 2.1,
+        "embodied_emissions_kgCO2e": 240,
+        "type": "OVEN"
+    },
+    {
+        "name": "Bosch HBL8453UC Oven",
+        "power_consumption_kwh": 1.9,
+        "embodied_emissions_kgCO2e": 220,
+        "type": "OVEN"
+    },
+    {
+        "name": "Panasonic NN-SN966S Microwave",
+        "power_consumption_kwh": 1,
+        "embodied_emissions_kgCO2e": 90,
+        "type": "MICROWAVE"
+    },
+    {
+        "name": "LG LMV2031ST Microwave",
+        "power_consumption_kwh": 0.95,
+        "embodied_emissions_kgCO2e": 85,
+        "type": "MICROWAVE"
+    },
+    {
+        "name": "Sharp R-21LCFS Microwave",
+        "power_consumption_kwh": 0.8,
+        "embodied_emissions_kgCO2e": 80,
+        "type": "MICROWAVE"
+    },
+    {
+        "name": "GE JES2051SNSS Microwave",
+        "power_consumption_kwh": 1.1,
+        "embodied_emissions_kgCO2e": 95,
+        "type": "MICROWAVE"
+    },
+    {
+        "name": "Bosch SHXM78W55N Dishwasher",
+        "power_consumption_kwh": 1.2,
+        "embodied_emissions_kgCO2e": 150,
+        "type": "DISHWASHER"
+    },
+    {
+        "name": "Whirlpool WDF520PADM Dishwasher",
+        "power_consumption_kwh": 1.3,
+        "embodied_emissions_kgCO2e": 160,
+        "type": "DISHWASHER"
+    },
+    {
+        "name": "Miele G 6985 SCVi Dishwasher",
+        "power_consumption_kwh": 1.1,
+        "embodied_emissions_kgCO2e": 145,
+        "type": "DISHWASHER"
+    },
+    {
+        "name": "Samsung DW80R9950US Dishwasher",
+        "power_consumption_kwh": 1.4,
+        "embodied_emissions_kgCO2e": 170,
+        "type": "DISHWASHER"
+    },
+    {
+        "name": "Keurig K-Elite Coffee Maker",
+        "power_consumption_kwh": 0.15,
+        "embodied_emissions_kgCO2e": 20,
+        "type": "COFFEE_MAKER"
+    },
+    {
+        "name": "Nespresso VertuoPlus Coffee Maker",
+        "power_consumption_kwh": 0.2,
+        "embodied_emissions_kgCO2e": 25,
+        "type": "COFFEE_MAKER"
+    },
+    {
+        "name": "Breville BES870XL Coffee Maker",
+        "power_consumption_kwh": 0.18,
+        "embodied_emissions_kgCO2e": 22,
+        "type": "COFFEE_MAKER"
+    },
+    {
+        "name": "Hamilton Beach FlexBrew Coffee Maker",
+        "power_consumption_kwh": 0.16,
+        "embodied_emissions_kgCO2e": 21,
+        "type": "COFFEE_MAKER"
+    },
+    {
+        "name": "Keurig K-Duo Plus Coffee Maker",
+        "power_consumption_kwh": 0.3,
+        "embodied_emissions_kgCO2e": 30,
+        "type": "KETTLE"
+    },
+    {
+        "name": "Hamilton Beach 40998 Kettle",
+        "power_consumption_kwh": 0.28,
+        "embodied_emissions_kgCO2e": 28,
+        "type": "KETTLE"
+    },
+    {
+        "name": "Oster 1.7L Kettle",
+        "power_consumption_kwh": 0.25,
+        "embodied_emissions_kgCO2e": 25,
+        "type": "KETTLE"
+    },
+    {
+        "name": "Cuisinart CPK-17 Kettle",
+        "power_consumption_kwh": 0.3,
+        "embodied_emissions_kgCO2e": 30,
+        "type": "KETTLE"
+    },
+    {
+        "name": "Ninja BN701 Blender",
+        "power_consumption_kwh": 0.4,
+        "embodied_emissions_kgCO2e": 50,
+        "type": "BLENDER"
+    },
+    {
+        "name": "Vitamix 5200 Blender",
+        "power_consumption_kwh": 0.5,
+        "embodied_emissions_kgCO2e": 55,
+        "type": "BLENDER"
+    },
+    {
+        "name": "Breville BBL620 Fresh & Furious Blender",
+        "power_consumption_kwh": 0.45,
+        "embodied_emissions_kgCO2e": 53,
+        "type": "BLENDER"
+    },
+    {
+        "name": "KitchenAid KSB1570ER Blender",
+        "power_consumption_kwh": 0.48,
+        "embodied_emissions_kgCO2e": 52,
+        "type": "BLENDER"
+    },
+    {
+        "name": "Dyson V11 Torque Drive Vacuum Cleaner",
+        "power_consumption_kwh": 0.6,
+        "embodied_emissions_kgCO2e": 130,
+        "type": "VACUUM_CLEANER"
+    },
+    {
+        "name": "Shark Navigator Lift-Away Vacuum Cleaner",
+        "power_consumption_kwh": 0.5,
+        "embodied_emissions_kgCO2e": 120,
+        "type": "VACUUM_CLEANER"
+    },
+    {
+        "name": "Bissell CleanView Vacuum Cleaner",
+        "power_consumption_kwh": 0.45,
+        "embodied_emissions_kgCO2e": 110,
+        "type": "VACUUM_CLEANER"
+    },
+    {
+        "name": "Hoover Linx Cordless Vacuum Cleaner",
+        "power_consumption_kwh": 0.4,
+        "embodied_emissions_kgCO2e": 100,
+        "type": "VACUUM_CLEANER"
+    },
+    {
+        "name": "Whirlpool WFW4815HW Washing Machine",
+        "power_consumption_kwh": 1.2,
+        "embodied_emissions_kgCO2e": 150,
+        "type": "WASHING_MACHINE"
+    },
+    {
+        "name": "LG WM9000HVA Washing Machine",
+        "power_consumption_kwh": 1.3,
+        "embodied_emissions_kgCO2e": 160,
+        "type": "WASHING_MACHINE"
+    },
+    {
+        "name": "Samsung WF45R6100AC Washing Machine",
+        "power_consumption_kwh": 1.1,
+        "embodied_emissions_kgCO2e": 140,
+        "type": "WASHING_MACHINE"
+    },
+    {
+        "name": "Bosch WAW285H2UC Washing Machine",
+        "power_consumption_kwh": 1,
+        "embodied_emissions_kgCO2e": 130,
+        "type": "WASHING_MACHINE"
+    },
+    {
+        "name": "Whirlpool WED4815EW Dryer",
+        "power_consumption_kwh": 3.2,
+        "embodied_emissions_kgCO2e": 200,
+        "type": "DRYER"
+    },
+    {
+        "name": "LG DLEX9000V Dryer",
+        "power_consumption_kwh": 3.4,
+        "embodied_emissions_kgCO2e": 210,
+        "type": "DRYER"
+    },
+    {
+        "name": "Samsung DVE45R6100C Dryer",
+        "power_consumption_kwh": 3.1,
+        "embodied_emissions_kgCO2e": 190,
+        "type": "DRYER"
+    },
+    {
+        "name": "Bosch WTG86400UC Dryer",
+        "power_consumption_kwh": 2.9,
+        "embodied_emissions_kgCO2e": 180,
+        "type": "DRYER"
+    },
+    {
+        "name": "Philips GC5039/30 Iron",
+        "power_consumption_kwh": 2.4,
+        "embodied_emissions_kgCO2e": 50,
+        "type": "IRON"
+    },
+    {
+        "name": "Rowenta DW5080 Iron",
+        "power_consumption_kwh": 2.3,
+        "embodied_emissions_kgCO2e": 48,
+        "type": "IRON"
+    },
+    {
+        "name": "Tefal FV9845 Iron",
+        "power_consumption_kwh": 2.5,
+        "embodied_emissions_kgCO2e": 55,
+        "type": "IRON"
+    },
+    {
+        "name": "Braun TexStyle 7 Iron",
+        "power_consumption_kwh": 2.2,
+        "embodied_emissions_kgCO2e": 45,
+        "type": "IRON"
+    },
+    {
+        "name": "LG LP1419IVSM Air Conditioner",
+        "power_consumption_kwh": 1.6,
+        "embodied_emissions_kgCO2e": 300,
+        "type": "AIR_CONDITIONER"
+    },
+    {
+        "name": "Frigidaire FFRA0511R1 Air Conditioner",
+        "power_consumption_kwh": 1.2,
+        "embodied_emissions_kgCO2e": 270,
+        "type": "AIR_CONDITIONER"
+    },
+    {
+        "name": "Honeywell MN12CES Air Conditioner",
+        "power_consumption_kwh": 1.8,
+        "embodied_emissions_kgCO2e": 320,
+        "type": "AIR_CONDITIONER"
+    },
+    {
+        "name": "GE AHP08LX Air Conditioner",
+        "power_consumption_kwh": 1.4,
+        "embodied_emissions_kgCO2e": 290,
+        "type": "AIR_CONDITIONER"
+    },
+    {
+        "name": "Dyson AM09 Heater",
+        "power_consumption_kwh": 2,
+        "embodied_emissions_kgCO2e": 100,
+        "type": "HEATER"
+    },
+    {
+        "name": "Lasko 754200 Heater",
+        "power_consumption_kwh": 1.5,
+        "embodied_emissions_kgCO2e": 90,
+        "type": "HEATER"
+    },
+    {
+        "name": "Vornado VH10 Heater",
+        "power_consumption_kwh": 1.7,
+        "embodied_emissions_kgCO2e": 95,
+        "type": "HEATER"
+    },
+    {
+        "name": "De'Longhi TRD40615E Heater",
+        "power_consumption_kwh": 2.2,
+        "embodied_emissions_kgCO2e": 110,
+        "type": "HEATER"
+    },
+    {
+        "name": "Honeywell HT-900 Fan",
+        "power_consumption_kwh": 0.05,
+        "embodied_emissions_kgCO2e": 15,
+        "type": "FAN"
+    },
+    {
+        "name": "Lasko 2520 Fan",
+        "power_consumption_kwh": 0.04,
+        "embodied_emissions_kgCO2e": 12,
+        "type": "FAN"
+    },
+    {
+        "name": "Vornado 660 Fan",
+        "power_consumption_kwh": 0.06,
+        "embodied_emissions_kgCO2e": 18,
+        "type": "FAN"
+    },
+    {
+        "name": "Rowenta VU5670 Fan",
+        "power_consumption_kwh": 0.07,
+        "embodied_emissions_kgCO2e": 20,
+        "type": "FAN"
+    },
+    {
+        "name": "Samsung UN65NU8000 Television",
+        "power_consumption_kwh": 0.1,
+        "embodied_emissions_kgCO2e": 50,
+        "type": "TELEVISION"
+    },
+    {
+        "name": "LG OLED65CXPUA Television",
+        "power_consumption_kwh": 0.12,
+        "embodied_emissions_kgCO2e": 55,
+        "type": "TELEVISION"
+    },
+    {
+        "name": "Sony XBR65X900F Television",
+        "power_consumption_kwh": 0.11,
+        "embodied_emissions_kgCO2e": 53,
+        "type": "TELEVISION"
+    },
+    {
+        "name": "Vizio E65-F1 Television",
+        "power_consumption_kwh": 0.09,
+        "embodied_emissions_kgCO2e": 48,
+        "type": "TELEVISION"
+    },
+    {
+        "name": "Sonos Beam Sound System",
+        "power_consumption_kwh": 0.05,
+        "embodied_emissions_kgCO2e": 25,
+        "type": "SOUND_SYSTEM"
+    },
+    {
+        "name": "Bose Soundbar 700 Sound System",
+        "power_consumption_kwh": 0.06,
+        "embodied_emissions_kgCO2e": 30,
+        "type": "SOUND_SYSTEM"
+    },
+    {
+        "name": "Yamaha YAS-209 Sound System",
+        "power_consumption_kwh": 0.04,
+        "embodied_emissions_kgCO2e": 22,
+        "type": "SOUND_SYSTEM"
+    },
+    {
+        "name": "JBL Bar 5.1 Sound System",
+        "power_consumption_kwh": 0.05,
+        "embodied_emissions_kgCO2e": 24,
+        "type": "SOUND_SYSTEM"
+    },
+    {
+        "name": "Sony PlayStation 5 Gaming Console",
+        "power_consumption_kwh": 0.2,
+        "embodied_emissions_kgCO2e": 150,
+        "type": "GAMING_CONSOLE"
+    },
+    {
+        "name": "Microsoft Xbox Series X Gaming Console",
+        "power_consumption_kwh": 0.22,
+        "embodied_emissions_kgCO2e": 160,
+        "type": "GAMING_CONSOLE"
+    },
+    {
+        "name": "Nintendo Switch Gaming Console",
+        "power_consumption_kwh": 0.1,
+        "embodied_emissions_kgCO2e": 120,
+        "type": "GAMING_CONSOLE"
+    },
+    {
+        "name": "Sony PlayStation 4 Gaming Console",
+        "power_consumption_kwh": 0.15,
+        "embodied_emissions_kgCO2e": 140,
+        "type": "GAMING_CONSOLE"
+    },
+    {
+        "name": "Dyson Supersonic Hair Dryer",
+        "power_consumption_kwh": 1.2,
+        "embodied_emissions_kgCO2e": 60,
+        "type": "HAIR_DRYER"
+    },
+    {
+        "name": "Conair 1875 Hair Dryer",
+        "power_consumption_kwh": 1,
+        "embodied_emissions_kgCO2e": 55,
+        "type": "HAIR_DRYER"
+    },
+    {
+        "name": "Revlon 1875W Hair Dryer",
+        "power_consumption_kwh": 0.9,
+        "embodied_emissions_kgCO2e": 50,
+        "type": "HAIR_DRYER"
+    },
+    {
+        "name": "Remington D3190 Hair Dryer",
+        "power_consumption_kwh": 1.1,
+        "embodied_emissions_kgCO2e": 58,
+        "type": "HAIR_DRYER"
+    },
+    {
+        "name": "Philips Norelco 9000 Electric Shaver",
+        "power_consumption_kwh": 0.02,
+        "embodied_emissions_kgCO2e": 30,
+        "type": "ELECTRIC_SHAVER"
+    },
+    {
+        "name": "Braun Series 7 Electric Shaver",
+        "power_consumption_kwh": 0.02,
+        "embodied_emissions_kgCO2e": 28,
+        "type": "ELECTRIC_SHAVER"
+    },
+    {
+        "name": "Panasonic Arc5 Electric Shaver",
+        "power_consumption_kwh": 0.03,
+        "embodied_emissions_kgCO2e": 32,
+        "type": "ELECTRIC_SHAVER"
+    },
+    {
+        "name": "Remington F5-5800 Electric Shaver",
+        "power_consumption_kwh": 0.025,
+        "embodied_emissions_kgCO2e": 31,
+        "type": "ELECTRIC_SHAVER"
+    },
+    {
+        "name": "Philips Sonicare DiamondClean Electric Toothbrush",
+        "power_consumption_kwh": 0.01,
+        "embodied_emissions_kgCO2e": 15,
+        "type": "ELECTRIC_TOOTHBRUSH"
+    },
+    {
+        "name": "Oral-B Pro 1000 Electric Toothbrush",
+        "power_consumption_kwh": 0.01,
+        "embodied_emissions_kgCO2e": 12,
+        "type": "ELECTRIC_TOOTHBRUSH"
+    },
+    {
+        "name": "Sonicare FlexCare+ Electric Toothbrush",
+        "power_consumption_kwh": 0.02,
+        "embodied_emissions_kgCO2e": 18,
+        "type": "ELECTRIC_TOOTHBRUSH"
+    },
+    {
+        "name": "Colgate Hum Smart Electric Toothbrush",
+        "power_consumption_kwh": 0.015,
+        "embodied_emissions_kgCO2e": 16,
+        "type": "ELECTRIC_TOOTHBRUSH"
+    },
+    {
+        "name": "Google Nest Wi-Fi Router",
+        "power_consumption_kwh": 0.02,
+        "embodied_emissions_kgCO2e": 30,
+        "type": "ROUTER"
+    },
+    {
+        "name": "TP-Link Archer A7 Router",
+        "power_consumption_kwh": 0.03,
+        "embodied_emissions_kgCO2e": 32,
+        "type": "ROUTER"
+    },
+    {
+        "name": "Netgear Nighthawk AX12 Router",
+        "power_consumption_kwh": 0.04,
+        "embodied_emissions_kgCO2e": 35,
+        "type": "ROUTER"
+    },
+    {
+        "name": "Linksys Velop Router",
+        "power_consumption_kwh": 0.03,
+        "embodied_emissions_kgCO2e": 34,
+        "type": "ROUTER"
+    },
+    {
+        "name": "Nest Cam IQ Security Camera",
+        "power_consumption_kwh": 0.01,
+        "embodied_emissions_kgCO2e": 25,
+        "type": "SECURITY_CAMERA"
+    },
+    {
+        "name": "Ring Stick Up Cam Security Camera",
+        "power_consumption_kwh": 0.02,
+        "embodied_emissions_kgCO2e": 28,
+        "type": "SECURITY_CAMERA"
+    },
+    {
+        "name": "Arlo Pro 3 Security Camera",
+        "power_consumption_kwh": 0.015,
+        "embodied_emissions_kgCO2e": 27,
+        "type": "SECURITY_CAMERA"
+    },
+    {
+        "name": "Blink Outdoor Security Camera",
+        "power_consumption_kwh": 0.01,
+        "embodied_emissions_kgCO2e": 24,
+        "type": "SECURITY_CAMERA"
+    },
+    {
+        "name": "Apple iMac 24-inch",
+        "power_consumption_kwh": 0.2,
+        "embodied_emissions_kgCO2e": 150,
+        "type": "COMPUTER"
+    },
+    {
+        "name": "Dell XPS 15",
+        "power_consumption_kwh": 0.18,
+        "embodied_emissions_kgCO2e": 140,
+        "type": "COMPUTER"
+    },
+    {
+        "name": "HP Spectre x360",
+        "power_consumption_kwh": 0.17,
+        "embodied_emissions_kgCO2e": 130,
+        "type": "COMPUTER"
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "power_consumption_kwh": 0.15,
+        "embodied_emissions_kgCO2e": 120,
+        "type": "COMPUTER"
+    },
+    {
+        "name": "Test Appliance",
+        "power_consumption_kwh": 2.9,
+        "embodied_emissions_kgCO2e": 20,
+        "type": "BLENDER"
+    }
+]
