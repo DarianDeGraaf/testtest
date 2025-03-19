@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Samsung RF23J9011SR Refrigerator",
+    "type": "REFRIGERATOR",
+    "power_consumption_kwh": 0.9,
+    "embodied_emissions_kgCO2e": 180
+  },
+  {
+    "name": "LG WM3900HWA Washing Machine",
+    "type": "WASHING_MACHINE",
+    "power_consumption_kwh": 1.5,
+    "embodied_emissions_kgCO2e": 150
+  }
+]

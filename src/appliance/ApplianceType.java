@@ -1,12 +1,6 @@
 package appliance;
 
-import enum_template.EnumTemplate;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
-public enum ApplianceType implements EnumTemplate{
+public enum ApplianceType {
     REFRIGERATOR("Refrigerator"),
     FREEZER("Freezer"),
     OVEN("Oven"),
@@ -32,33 +26,17 @@ public enum ApplianceType implements EnumTemplate{
     SECURITY_CAMERA("Security Camera"),
     COMPUTER("Computer");
 
-    private final String caption;
-    private static final Map<String, ApplianceType> LOOKUP_MAP = new HashMap<>();
+    private final String displayName;
 
-    static {
-        for (ApplianceType applianceType : ApplianceType.values()) {
-            LOOKUP_MAP.put(applianceType.caption, applianceType);
-        }
-    }
-    ApplianceType(String caption) {
-        this.caption = caption;
+    ApplianceType(String displayName) {
+        this.displayName = displayName;
     }
 
-    @Override
-    public String getCaption() {
-        return this.caption;
-    }
-    public static Set<String> getAllEnumCaptions() {
-        return EnumTemplate.getEnumCaptions(LOOKUP_MAP);
+    public String getDisplayName() {
+        return displayName;
     }
 
-    public static ApplianceType getEnumByCaption(String caption) {
-        return EnumTemplate.getEnumByCaption(LOOKUP_MAP, caption);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(ApplianceType.getAllEnumCaptions());
-        ApplianceType app1 = ApplianceType.getEnumByCaption("Hair Dryer");
-        System.out.println(app1.caption);
+    public static ApplianceType[] getAllApplianceTypes() {
+        return values();
     }
 }
